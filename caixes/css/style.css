@@ -1,0 +1,123 @@
+.contenidor {
+    height: 500px;
+    border: 10px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 7px;
+    display: flex;
+
+}
+
+.caixa1 {
+    width: 50%;
+    height: 500px;
+    margin: 2px;
+    animation-name: caixa1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caixa1 {
+    0% {background-color: red;}
+    18% {background-color: blue;}
+    36% {background-color: orange;}
+    54% {background-color: green;}
+    72% {background-color: purple;}
+    90% {background-color: bisque;}
+    100% {background-color: red;}
+}
+
+.caixa2 {
+    width: 50%;
+    height: 500px;
+    margin: 2px;
+    animation-name: caixa2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caixa2 {
+    0% {background-color: blue;}
+    18% {background-color: orange;}
+    36% {background-color: green;}
+    54% {background-color: purple;}
+    72% {background-color: bisque;}
+    90% {background-color: red;}
+    100% {background-color: blue;}
+}
+
+.caixa3 {
+    width: 50%;
+    height: 500px;
+    margin: 2px;
+    animation-name: caixa3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caixa3 {
+    0% {background-color: orange;}
+    18% {background-color: green;}
+    36% {background-color: purple;}
+    54% {background-color: bisque;}
+    72% {background-color: red;}
+    90% {background-color: blue;}
+    100% {background-color: orange;}
+}
+
+.caixa4 {
+    width: 50%;
+    height: 500px;
+    margin: 2px;
+    animation-name: caixa4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caixa4 {
+    0% {background-color: green;}
+    18% {background-color: purple;}
+    36% {background-color: bisque;}
+    54% {background-color: red;}
+    72% {background-color: blue;}
+    90% {background-color: orange;}
+    100% {background-color: green;}
+}
+
+.caixa5 {
+    width: 50%;
+    height: 500px;
+    margin: 2px;
+    animation-name: caixa5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caixa5 {
+    0% {background-color: purple;}
+    18% {background-color: bisque;}
+    36% {background-color: red;}
+    54% {background-color: blue;}
+    72% {background-color: orange;}
+    90% {background-color: green;}
+    100% {background-color: purple;}
+}
+
+.caixa6 {
+    width: 50%;
+    height: 500px;
+    margin: 2px;
+    animation-name: caixa6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caixa6 {
+    0% {background-color: bisque;}
+    18% {background-color: red;}
+    36% {background-color: blue;}
+    54% {background-color: orange;}
+    72% {background-color: green;}
+    90% {background-color: purple;}
+    100% {background-color: bisque;}
+}
